@@ -30,6 +30,53 @@
     </fragment>
 
     <fragment
+        android:id="@+id/planeta01Fragment"
+        android:name="com.example.planetario.Planeta01Fragment"
+        android:label="fragment_planeta01"
+        tools:layout="@layout/fragment_planeta01" />
+
+
+    <fragment
+        android:id="@+id/planeta02Fragment2"
+        android:name="com.example.planetario.planeta02Fragment"
+        android:label="fragment_planeta02"
+        tools:layout="@layout/fragment_planeta02" />
+    <fragment
+        android:id="@+id/planeta03Fragment2"
+        android:name="com.example.planetario.planeta03Fragment"
+        android:label="fragment_planeta03"
+        tools:layout="@layout/fragment_planeta03" />
+    <fragment
+        android:id="@+id/planeta04Fragment2"
+        android:name="com.example.planetario.planeta04Fragment"
+        android:label="fragment_planeta04"
+        tools:layout="@layout/fragment_planeta04" />
+    <fragment
+        android:id="@+id/planeta05Fragment2"
+        android:name="com.example.planetario.planeta05Fragment"
+        android:label="fragment_planeta05"
+        tools:layout="@layout/fragment_planeta05" />
+    <fragment
+        android:id="@+id/planeta06Fragment2"
+        android:name="com.example.planetario.planeta06Fragment"
+        android:label="fragment_planeta06"
+        tools:layout="@layout/fragment_planeta06" />
+    <fragment
+        android:id="@+id/planeta07Fragment2"
+        android:name="com.example.planetario.planeta07Fragment"
+        android:label="fragment_planeta07"
+        tools:layout="@layout/fragment_planeta07" />
+    <fragment
+        android:id="@+id/planeta08Fragment2"
+        android:name="com.example.planetario.planeta08Fragment"
+        android:label="fragment_planeta08"
+        tools:layout="@layout/fragment_planeta08" />
+    <fragment
+        android:id="@+id/planeta09Fragment2"
+        android:name="com.example.planetario.planeta09Fragment"
+        android:label="fragment_planeta09"
+        tools:layout="@layout/fragment_planeta09" />
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.planetario.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
@@ -40,9 +87,4 @@
         android:name="com.example.planetario.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
-    <fragment
-        android:id="@+id/planeta01Fragment"
-        android:name="com.example.planetario.Planeta01Fragment"
-        android:label="fragment_planeta01"
-        tools:layout="@layout/fragment_planeta01" />
 </navigation>
